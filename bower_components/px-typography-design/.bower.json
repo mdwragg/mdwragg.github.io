@@ -1,0 +1,42 @@
+{
+  "name": "px-typography-design",
+  "version": "1.1.5",
+  "homepage": "https://github.com/PredixDev/px-typography-design.git",
+  "authors": [
+    "General Electric"
+  ],
+  "description": "Base typographic styles for Predix UI",
+  "main": "_base.typography.scss",
+  "keywords": [
+    "px",
+    "sass",
+    "typography"
+  ],
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "sass",
+    ".github",
+    "OSS_Notice.pdf"
+  ],
+  "dependencies": {
+    "px-colors-design": "~0.2.20",
+    "px-defaults-design": "~0.3.0",
+    "px-mixins-design": "~0.2.9"
+  },
+  "devDependencies": {
+    "px-sass-doc": "^0.2.9",
+    "px-starter-kit-design": "~0.6.0"
+  },
+  "_release": "1.1.5",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.1.5",
+    "commit": "2bb98a21420629b4628e4a38d42fc8b93d201469"
+  },
+  "_source": "https://github.com/PredixDev/px-typography-design.git",
+  "_target": "~1.1.1",
+  "_originalSource": "https://github.com/PredixDev/px-typography-design.git"
+}
