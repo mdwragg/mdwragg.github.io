@@ -224,7 +224,23 @@ gulp.task('generate-service-worker', function(callback) {
   var rootDir = '.';
 
   swPrecache.write(path.join(rootDir, 'service-worker.js'), {
-    staticFileGlobs: [rootDir + '/*.{js,html,css,png,jpg,gif,svg,eot,ttf,woff}', '!' + rootDir + '/_*.{js,html,css}'],
+    staticFileGlobs: [
+      rootDir + '/contributing.html',
+      rootDir + '/getting_started.html',
+      rootDir + '/index.html',
+      rootDir + '/landing_page.html',
+      rootDir + '/px-catalog-state.html',
+      rootDir + '/px-sb-list.html',
+      rootDir + '/px-sb.html',
+      rootDir + '/use_component_generator.html',
+      rootDir + '/use_css.html',
+      rootDir + '/use_seed.html',
+      rootDir + '/what_is_predix_ui.html',
+      rootDir + '/img/*',
+      rootDir + '/type/*',
+      rootDir + '/css/*'
+
+    ],
     stripPrefix: rootDir
   }, callback);
 });
